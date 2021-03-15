@@ -1,0 +1,10 @@
+Fonts:
+https://github.com/googlefonts/karla
+https://github.com/googlefonts/rubik
+
+Icons:
+Icons made by Becris from www.flaticon.com
+https://www.flaticon.com/authors/becris
+
+Images:
+Photo by Maor Attias from Pexels
