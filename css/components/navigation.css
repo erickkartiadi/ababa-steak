@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.navigation__brand  img {
+  width: 15rem;
+}
+
+.navigation__menu {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.navigation__menu > li {
+  padding: 0px 3rem;
+}
+
+.navigation__menu > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navigation__action {
+  margin-left: 4rem;
+}

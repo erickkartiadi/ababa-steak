@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Karla";
+  src: url("../../fonts/Karla-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../../fonts/Rubik-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Karla";
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.color-secondary{
+  color: var(--secondary);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.heading-primary {
+  font-family: "Rubik";
+  font-size: 8rem;
+  text-transform: uppercase;
+  line-height: 10rem;
+}
+
+.title {
+  font-family: "Rubik";
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--light-grey);
+}
