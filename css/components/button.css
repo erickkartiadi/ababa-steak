@@ -7,10 +7,9 @@
   cursor: pointer;
   outline: inherit;
 
-  padding: .8rem 2.5rem;
-  border-radius: 5px;
+  padding: 1.25rem 2.5rem;
+  border-radius: 1.25rem;
   cursor: pointer;
-  /* letter-spacing: 1px; */
   font-size: 1.6rem;
   letter-spacing: 1.25px;
 }
@@ -20,8 +19,9 @@
 }
 
 .btn-lg {
-  padding: 1rem 3rem;
+  padding: 1.2rem 3rem;
   font-size: 2rem;
+  border-radius: 1.5rem;
 }
 
 .btn-primary {

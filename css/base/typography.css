@@ -26,6 +26,10 @@ body {
   color: var(--light);
 }
 
+.bg-primary-light {
+  background-color: var(--primary);
+}
+
 .heading-primary {
   font-family: "Rubik";
   font-size: 8rem;
@@ -35,7 +39,7 @@ body {
 
 .title {
   font-family: "Rubik";
-  font-size: 4.8rem;
+  font-size: 4.2rem;
   margin-bottom: 4rem;
 }
 
@@ -43,4 +47,12 @@ body {
   font-size: 1.75rem;
   font-weight: 500;
   color: var(--light-grey);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-shadow-sm {
+  text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.3);
 }

@@ -1,0 +1,39 @@
+.menu {
+  overflow: hidden;
+  /* height: 35rem; */
+  margin: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.menu__image {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.menu__image > img {
+  width: 100%;
+}
+
+.menu__content {
+  
+}
+
+.menu__content > h1 {
+  font-family: "Rubik";
+  margin-bottom: 3px;
+  font-size: 2.4rem;
+}
+
+.menu__content > p {
+  font-size: 1.4rem;
+}
+

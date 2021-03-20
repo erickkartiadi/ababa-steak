@@ -7,5 +7,6 @@
 @import "components/navigation.css";
 @import "components/button.css";
 @import "components/card.css";
+@import "components/menu.css";
 
 @import "layouts/homepage.css";
