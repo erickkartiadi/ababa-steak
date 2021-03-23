@@ -16,7 +16,15 @@
 }
 
 .section-menu {
-  background-color: #ffd0909c;
+  background-image: linear-gradient(
+    to right bottom,
+  rgb(0,0,0, 0.2),
+  rgba(0,0,0, 0.7)),
+  url("../../assets/images/bg2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /* background-color: #ffd0909c; */
 }
 
 .section__title {
