@@ -8,5 +8,8 @@
 @import "components/button.css";
 @import "components/card.css";
 @import "components/menu.css";
+@import "components/review.css";
+@import "components/form.css";
+@import "components/book.css";
 
 @import "layouts/homepage.css";

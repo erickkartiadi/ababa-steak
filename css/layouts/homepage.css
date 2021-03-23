@@ -15,6 +15,10 @@
   padding-bottom: 10rem;
 }
 
+.section-menu {
+  background-color: #ffd0909c;
+}
+
 .section__title {
   margin-bottom: 5rem;
 }
@@ -45,6 +49,10 @@
   border-radius: 5px;
 }
 
-.section__menu {
-  background-color: #ffd0909c;
+.section-reviews .section__title > .title{
+  line-height: 5.5rem;
+}
+
+.section-book {
+  background-image: linear-gradient(to right bottom, #F29F05, #F28705);
 }
