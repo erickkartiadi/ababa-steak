@@ -7,21 +7,21 @@
   cursor: pointer;
   outline: inherit;
 
-  padding: 1.25rem 2.5rem;
-  border-radius: 1.25rem;
+  padding: 1.25rem 3.5rem;
+  border-radius: 5rem;
   cursor: pointer;
   font-size: 1.6rem;
   letter-spacing: 1.25px;
-}
-.btn-link-primary {
-  color: var(--primary);
-  text-decoration: underline;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(166, 173, 201, 0.2);
 }
 
-.btn-lg {
-  padding: 1.2rem 3rem;
-  font-size: 2rem;
-  border-radius: 1.5rem;
+.btn:hover {
+  transform: scale(1.2);
+  /* background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary); */
 }
 
 .btn-primary {
