@@ -24,6 +24,21 @@
   font-size: 1.6rem;
   font-weight: lighter;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.navigation__menu > li > a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width .3s;
+  margin: auto;
+}
+
+.navigation__menu > li > a:hover::after {
+  width: 100%;
 }
 
 .navigation__action {
