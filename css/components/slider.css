@@ -1,0 +1,8 @@
+#slider-wrapper {
+  overflow: auto !important;
+  display: flex;
+}
+
+#slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
