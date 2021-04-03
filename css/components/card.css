@@ -3,7 +3,7 @@
   margin: 0 1.5rem;
   padding: 4rem 3rem;
   flex-basis: 1;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
   transition: all ease-in-out .2s;
 }
 
