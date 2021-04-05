@@ -33,8 +33,7 @@ $(document).ready(function() {
       $(".navigation").css({"box-shadow": "none"});
       $(".navigation__menu > li > a").css({"color":"white"});
       $("#logo_img").attr("src","./assets/images/logo.png");
-
-
     }
   })
 })
+
