@@ -13,6 +13,17 @@
 @import "components/form.css";
 @import "components/book.css";
 @import "components/slider.css";
-@Import "components/slideshow.css";
+@import "components/slideshow.css";
+@import "components/product.css";
+@import "components/pagination.css";
+@import "components/dropdown.css";
 
+@import "layouts/layout.css";
 @import "layouts/homepage.css";
+@import "layouts/menu.css";
+
+
+/* 
+  !TODO resize image
+  !TODO link homepage menu section to section page
+*/

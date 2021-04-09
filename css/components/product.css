@@ -1,0 +1,56 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(166, 173, 201, 0.2);
+  overflow: hidden;
+  margin: 1.5rem;
+  background-color: white;
+
+  flex-basis: calc(25% - 3rem);
+  /* flex: 0 1 calc(20% - 30px); */
+}
+
+.product__content {
+  padding: 1.5rem;
+}
+
+.product__content > .product__category {
+  color: var(--light-grey);
+  font-weight: 100;
+}
+
+.product__content > .product__title {
+  text-transform: capitalize ;
+  font-family: "Rubik";
+  line-height: 2.5rem;  
+}
+
+.product__content > .product__price {
+  color: var(--primary);
+}
+
+.product__content > p.product__description {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.product__img {
+  overflow: hidden;
+  height: 250px;
+}
+
+.product__img > img {
+  height: 100%;
+  transition: all .3s;
+}
+
+.product__img > img:hover {
+  transform: scale(1.1);
+}
