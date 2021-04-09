@@ -6,7 +6,7 @@
   background-image: linear-gradient(to right,
     rgba(255,255,255, 0.95) 0%,
     rgba(255,255,255, 0.95) 50%, transparent 50% ),
-  url(../../assets/images/reserve.jpg);
+  url(../../assets/images/reserve-form-backgorund.jpg);
   background-size: cover;
   background-position: center center;
 }

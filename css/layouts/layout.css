@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 90vh;
-  background-image: url("../../assets/images/bg.jpg");
+  background-image: url("../../assets/images/header-background.jpg");
   background-size: cover;
   /* background-position: center; */
 }
@@ -16,7 +16,7 @@
     to right bottom,
   rgb(0,0,0, 0.2),
   rgba(0,0,0, 0.7)),
-  url("../../assets/images/bg2.jpg");
+  url("../../assets/images/featured-menu-background.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
