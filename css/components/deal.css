@@ -5,8 +5,6 @@
   background-color: white;
   width: 80rem;
   height: 40rem;
-  /* box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-  0 15px 40px rgba(166, 173, 201, 0.2); */
   border: 1px solid rgba(0, 0, 0, .1);
   display: flex;
   margin: 0 1.5rem;
@@ -20,6 +18,12 @@
 
 .deal__img > img{
   width: 100%; 
+  transition: all .3s;
+}
+
+.deal__img:hover > img{
+  /* width: 100%;  */
+  transform: scale(1.1);
 }
 
 .deal__content {
@@ -45,8 +49,6 @@
   font-size: 3rem;
 }
 
-.deal__content>.deal__price {
-}
 
 .deal__price > s {
   font-size: 1.5rem;

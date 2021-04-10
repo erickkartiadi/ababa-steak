@@ -1,0 +1,65 @@
+.coupon {
+  border-radius: 1.5rem;
+  background-color: white;
+  padding: 3rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  width: 25rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.coupon__percent {
+  font-family: "Rubik";
+  font-size: 4.8rem;
+  line-height: 4.2rem;
+  font-weight: bolder;
+  /* letter-spacing: 1rem; */
+}
+
+.coupon__percent > span {
+  font-family: "Karla";
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.coupon__description {
+  color: var(--light-grey);
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.coupon__code {
+  background: none;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 15rem;
+  text-align: center;
+  border: 2px solid black;
+  padding: .75rem 1.25rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.coupon__code:hover {
+  background-color: var(--primary);
+  color: var(--light);
+  border: 2px solid var(--primary);
+}
+
+.coupon__code:hover span {
+  display: none;
+}
+
+.coupon__code:focus {
+  outline: none;
+}
+
+.coupon__code:hover::before {
+  content: "COPY CODE";
+}
+
