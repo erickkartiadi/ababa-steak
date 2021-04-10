@@ -1,8 +1,53 @@
-#slider-wrapper {
-  overflow: auto !important;
+
+.slider-wrapper {
+  overflow-x: auto !important;
   display: flex;
 }
 
-#slider-wrapper::-webkit-scrollbar {
+.slider-wrapper::-webkit-scrollbar {
   display: none;
 }
+
+.slider-prev, .slider-next {
+  position: absolute;
+  opacity: 0;
+  background: none;
+  border: none;
+
+  display: table-cell;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: center;
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 0;
+  color: #808a92;
+  mix-blend-mode: difference;
+  transition: all .3s;
+}
+
+.slider-prev:focus, .slider-next:focus {
+  outline: none;
+}
+
+.slider-prev:hover, .slider-next:hover {
+  color: white;
+}
+
+.wrapper:hover > button{
+  opacity: 1;
+  padding: 1.5rem;
+
+}
+
+.slider-prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-next {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+

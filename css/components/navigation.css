@@ -32,18 +32,27 @@
   display: block;
   width: 0;
   height: 1px;
-  background: black;
+  background: white;
   transition: width ease-out .3s;
   margin: auto;
+}
+
+.navigation__menu > li > a.invert::after {
+  background: black;
 }
 
 .navigation__menu > li > a:hover::after {
   width: 100%;
 }
 
+.navigation__menu>li>a.current::after {
+  width: 100%;
+}
+
 .navigation__action {
   margin-left: 4rem;
 }
+
 
 .nav-offset {
   padding-top: 9rem;

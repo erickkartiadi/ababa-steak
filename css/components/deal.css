@@ -1,0 +1,64 @@
+
+.deal {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: white;
+  width: 80rem;
+  height: 40rem;
+  /* box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(166, 173, 201, 0.2); */
+  border: 1px solid rgba(0, 0, 0, .1);
+  display: flex;
+  margin: 0 1.5rem;
+}
+
+.deal__img {
+  flex: 1 0 40rem;
+  height: 40rem;
+  overflow: hidden;
+}
+
+.deal__img > img{
+  width: 100%; 
+}
+
+.deal__content {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.deal__content {
+  padding: 3rem;
+}
+
+
+.deal__content>.deal__category {
+  color: var(--light-grey);
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.deal__content>.deal__title {
+  text-transform: capitalize;
+  font-family: "Rubik";
+  line-height: 4rem;
+  font-size: 3rem;
+}
+
+.deal__content>.deal__price {
+}
+
+.deal__price > s {
+  font-size: 1.5rem;
+  color: var(--light-grey);
+  font-weight: lighter;  
+}
+
+.deal__price > span {
+  color: var(--primary);
+  font-size: 3rem;
+}
+.deal__content>p.deal__description {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}

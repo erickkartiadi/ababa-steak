@@ -17,15 +17,14 @@
 @import "components/product.css";
 @import "components/pagination.css";
 @import "components/dropdown.css";
+@import "components/deal.css";
 
 @import "layouts/layout.css";
 @import "layouts/homepage.css";
 @import "layouts/menu.css";
+@import "layouts/promo.css";
 
 
 /* 
-  !TODO resize image
-  !TODO link homepage menu section to section page
-  !TODO hot & fresh menu
   !TODO favicon
 */
