@@ -22,7 +22,6 @@
 }
 
 .deal__img:hover > img{
-  /* width: 100%;  */
   transform: scale(1.1);
 }
 
@@ -38,7 +37,6 @@
 
 .deal__content>.deal__category {
   color: var(--light-grey);
-  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -46,7 +44,6 @@
   text-transform: capitalize;
   font-family: "Rubik";
   line-height: 4rem;
-  font-size: 3rem;
 }
 
 

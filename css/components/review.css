@@ -9,6 +9,10 @@
 
   padding: 3rem;
   font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
   flex: 1 1 0;
   transition: all .3s;
 }
@@ -20,7 +24,7 @@
 
 
 .review__profile {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
 }

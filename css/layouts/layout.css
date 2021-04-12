@@ -12,7 +12,6 @@
 }
 
 .footer__title {
-  font-size: 1.6rem;
   font-weight: bold;
   letter-spacing: .25rem;
   text-transform: uppercase;
@@ -39,3 +38,8 @@
   color: rgba(255, 255, 255, .4)
 }
 
+hr.title-border {
+  border: 3px solid var(--primary);
+  width: 7.5rem;
+  border-radius: 5px;
+}

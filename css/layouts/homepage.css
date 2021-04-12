@@ -40,14 +40,8 @@
   margin-bottom: 4rem;
 }
 
-.section__title--inline h1.title {
+.section__title--inline .title {
   margin-bottom: -5px;
-}
-
-.section__title--inline h1.title+hr {
-  border: 3px solid var(--primary);
-  width: 7.5rem;
-  border-radius: 5px;
 }
 
 .section-reviews .section__title>.title {
