@@ -3,12 +3,12 @@ $(document).ready(function() {
 
   //* Menu Slider Function
   let sliderWrapper = $("#featuredMenuSlider");
-  let card = $("#featuredMenuSlider .menu").first();
+  let card = $("#featuredMenuSlider .product").first();
 
   // find scroll value
   let cardWidth = card.innerWidth();
   let margin = parseInt(card.css("margin").replace('px', ''));
-  let scrollValue = (cardWidth + (margin * 2)) * 2;
+  let scrollValue = (cardWidth + (margin * 2)) * 1;
   
   
 
