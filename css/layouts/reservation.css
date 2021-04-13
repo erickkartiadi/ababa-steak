@@ -1,0 +1,8 @@
+.reservation-header {
+  width: 100%;
+  background: linear-gradient(105deg, #f29f0517, #f2870561),
+  url(../../assets/images/reservation-background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 15rem 0;
+}

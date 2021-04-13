@@ -1,0 +1,10 @@
+.reserve  {
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, .95);
+  margin: auto;
+  width: 75%;
+}
+
+.reserve input {
+  width: 100%;
+}

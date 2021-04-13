@@ -19,11 +19,13 @@
 @import "components/deal.css";
 @import "components/coupon.css";
 @import "components/history.css";
+@import "components/reserve.css";
 
 @import "layouts/layout.css";
 @import "layouts/homepage.css";
 @import "layouts/promo.css";
 @import "layouts/about.css";
+@import "layouts/reservation.css"
 
 
 /* 
