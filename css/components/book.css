@@ -14,11 +14,7 @@
 .book__left {
   width: 50%;
   height: 100%;
-  padding: 7rem;
-}
-
-.book h4.title {
-  font-size: 3.6rem;
+  padding: 6rem;
 }
 
 .book__form input {
