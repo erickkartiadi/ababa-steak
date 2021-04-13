@@ -1,33 +1,48 @@
 .form-group {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-two {
+  margin: 0 -1.5rem;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-two .form-group {
+  width: 50%;
+  margin: 0 1.5rem;
 }
 
 .form-input {
   font-size: 1.4rem;
   font-family: inherit;
   color: inherit;
-  padding: 1.5rem 2rem;
-  background-color: rgba(255,255,255, 0.6);
   border: none;
-  border-bottom: 3px solid transparent;
+  /* border: 1px so;/ */
+  border: 1px solid rgba(0,0,0,.05);
+
+  padding: 1.5rem 1.5rem;
+  background-color: rgba(255,255,255, 0.6);
   display: block;
-  border-radius: 1.5rem; 
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  border-radius: 1rem; 
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.04),
   0 15px 40px rgba(166, 173, 201, 0.2);
+  transition: all .2s;
 }
 
 .form-input:focus {
-  /* box-shadow: 0 1rem 2rem rgba(255,255,255, 0.1); */
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(166, 173, 201, 0.2);
+  border: 1px solid rgba(242, 135, 5, .5);
   outline: none;
 }
 
-
 .form-label {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  /* margin-left: 1.5rem; */
+  margin-bottom: .25rem;
   display: block;
   transition: all 0.3s;
 }
+
 
