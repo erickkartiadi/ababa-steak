@@ -63,6 +63,14 @@ p.text-sm {
   color: var(--light) !important;
 }
 
+.color-danger {
+  color: var(--danger) !important;
+}
+
+.color-success {
+  color: var(--success) !important;
+}
+
 .bg-primary-light {
   background-color: var(--primary);
 }

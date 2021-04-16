@@ -1,6 +1,8 @@
 
 .slider-wrapper {
   overflow-x: auto !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   display: flex;
 }
 
