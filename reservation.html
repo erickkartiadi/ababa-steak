@@ -38,40 +38,42 @@
   <div class="nav-offset"></div>
   <div class="reservation-header">
     <div class="container">
-      <form class="reserve">
+      <form id="reserveForm" name="reserve" action="" class="reserve" novalidate>
         <h4 class="title color-primary">Book a Table</h4>
 
         <div class="form-group-two">
           <div class="form-group">
             <label class="form-label" for="name">Name</label>
-            <input id="name" type="text" class="form-input" placeholder="Enter your name here">
+            <input id="name" type="text" class="form-input" name="name" placeholder="Enter your name here">
           </div>
           <div class="form-group">
             <label class="form-label" for="email">Email</label>
-            <input id="email" type="email" class="form-input" placeholder="example@mail.com">
+            <input id="email" type="email" class="form-input" name="email" placeholder="example@mail.com">
           </div>
         </div>
         <div class="form-group">
-          <label class="form-label" for="phoneNumber">Phone Number</label>
-          <input id="phoneNumber" type="tel" class="form-input" placeholder="Enter your phone number here ">
+          <label class="form-label" for="phone_number">Phone Number</label>
+          <input id="phone_number" type="tel" class="form-input" name="phone_number"
+            placeholder="Enter your phone number here ">
         </div>
         <div class="form-group">
-          <label class="form-label" for="person">Number of Person</label>
-          <input id="person" type="number" class="form-input" placeholder="Enter number of person here">
+          <label class="form-label" for="number_person">Number of Person</label>
+          <input id="number_person" type="number" class="form-input" name="number_person"
+            placeholder="Enter number of person here" min="1" max="12">
         </div>
         <div class="form-group-two">
           <div class="form-group">
             <label class="form-label" for="date">Date</label>
-            <input id="date" type="date" class="form-input">
+            <input id="date" type="date" class="form-input" name="date">
           </div>
           <div class="form-group">
             <label class="form-label" for="time">Time</label>
-            <input id="time" type="time" class="form-input">
+            <input id="time" type="time" class="form-input" name="time">
           </div>
         </div>
         <div class="form-group">
           <label class="form-label" for="coupon">Coupon Code</label>
-          <input id="coupon" type="number" class="form-input" placeholder="Enter coupon code here">
+          <input id="coupon" type="text" class="form-input" placeholder="Enter coupon code here" name="coupon">
         </div>
         <button class="btn btn-primary" type="submit">
           Reserve
@@ -79,6 +81,8 @@
       </form>
     </div>
   </div>
+
+
   <footer class="section section-footer">
     <div class="container d-flex footer justify-content-space-between">
       <div class="footer__brand">
@@ -132,5 +136,6 @@
     </div>
   </footer>
 </body>
+<script src="./js/reserve.js"></script>
 
 </html>
