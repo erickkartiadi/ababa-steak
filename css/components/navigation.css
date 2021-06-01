@@ -6,6 +6,15 @@
   transition: all .2s ease-in-out;
 }
 
+#logo_img-mobile {
+  display: none;
+}
+
+button#navbar-toggle {
+  background: none;
+  cursor: pointer;
+}
+
 .navigation__brand  img {
   width: 15rem;
 }
@@ -14,6 +23,7 @@
   list-style-type: none;
   display: inline-flex;
 }
+
 
 .navigation__menu > li {
   padding: 0px 3rem;
@@ -49,11 +59,58 @@
   width: 100%;
 }
 
-.navigation__action {
-  margin-left: 4rem;
-}
-
-
 .nav-offset {
   padding-top: 9rem;
+}
+
+.navigation__expand {
+  display: none;
+  margin-left: 3rem;
+  /* padding: 3rem; */
+}
+
+.navigation__expand i.fas{
+  font-size: 4rem;
+  color: black;
+}
+
+.navigation__menu-expand {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation__menu-expand>li {
+  padding: 3rem 0;
+}
+
+.navigation__menu-expand>li>a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.navigation__menu-expand>li>a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: width ease-out .3s;
+  margin: auto;
+}
+
+.navigation__menu-expand>li>a.invert::after {
+  background: black;
+}
+
+.navigation__menu-expand>li>a:hover::after {
+  width: 100%;
+}
+
+.navigation__menu-expand>li>a.current::after {
+  width: 100%;
 }

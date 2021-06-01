@@ -98,9 +98,11 @@ function validateForm(e) {
     showError(couponInput, "Coupon consist of 8 digits");
     isSuccess = false;
   }
+  console.log($("#reserveForm"), reserveForm);
 
   if (isSuccess) {
     alert("Success !");
+    reserveForm.reset();
   }
 }
 
