@@ -33,6 +33,7 @@
 .card__content > .card__title {
   font-family: "Rubik";
   margin-bottom: 1rem;
+  line-height: 4rem;
 }
 
 .card__content > .card__text {
