@@ -9,6 +9,10 @@
     font-size: 2rem;
     line-height: normal;
   }
+
+  .reserve {
+    width: 100%;
+  }
 }
 
 
@@ -52,6 +56,14 @@
 
   .book__left {
     width: 60%;
+  }
+
+  .product {
+    flex-basis: calc(33.333% - 3rem);
+  }
+
+  .history__card > .history__card-content {
+    flex-basis: 90%;
   }
 
 }
@@ -132,6 +144,17 @@
   }
 
 
+   .product {
+     flex-basis: calc(50% - 3rem);
+   }
+
+   .product-list {
+     margin: 0;
+   }
+
+   .history__card>.history__card-content {
+     flex-basis: 150%;
+   }
 }
 
 
@@ -193,5 +216,33 @@
   .heading-primary {
     font-size: 10vw;
     line-height: 15vw;
+  }
+
+  .product {
+    flex-basis: 100%;
+  }
+
+  .product-list {
+    margin: 0;
+  }
+
+  .product__img {
+    height: 100vw;
+  } 
+
+
+  .history__card>.history__card-image {
+    display: none;
+  }
+
+  .form-group-two {
+    flex-direction: column;
+    margin-right: 1.5rem;
+  }
+
+  .form-group-two .form-group {
+    margin-bottom: 1.5rem;
+    /* margin: 1.5rem; */
+    width: 100%;
   }
 }

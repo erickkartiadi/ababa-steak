@@ -68,8 +68,18 @@
 }
 
 .product__img {
+  
   overflow: hidden;
   height: 250px;
+}
+
+.product__img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+
+  transition: all .3s;
 }
 
 #featuredMenuSlider .product__img {
@@ -77,10 +87,6 @@
 }
 
 
-.product__img > img {
-  height: 100%;
-  transition: all .3s;
-}
 
 #featuredMenuSlider .product__img  > img{
   width: 100%;

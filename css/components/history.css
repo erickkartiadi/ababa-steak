@@ -15,6 +15,11 @@
   padding: 3rem;
 }
 
+.history__card-content > h3{
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
 .history__card > .history__card-image {
   flex-grow: 1;
   overflow: hidden;
