@@ -6,8 +6,6 @@
 .product {
   border-radius: 5px;
   width: 100%;
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-  0 15px 40px rgba(166, 173, 201, 0.2);
   overflow: hidden;
   margin: 1.5rem;
   background-color: white;
